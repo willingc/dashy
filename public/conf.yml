@@ -15,10 +15,10 @@ sections:
   - name: Python
     icon: fas fa-snake
     items:
-      - title: Dashy Live
-        description: Development a project management links for Dashy
-        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-        url: https://live.dashy.to/
+      - title: DevGuide
+        description: Developer Guide
+        icon: far fa-wrench
+        url: https://devguide.python.org/
         target: newtab
       - title: GitHub
         description: Source Code, Issues and Pull Requests
@@ -30,81 +30,34 @@ sections:
         icon: far fa-book
         url: https://docs.python.org/
         target: newtab
-      - &ref_3
-        title: Showcase
+      - title: Showcase
         description: See how others are using Dashy
         url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
         icon: far fa-grin-hearts
-        id: 3_642_showcase
-      - &ref_4
-        title: Config Guide
+      - title: Config Guide
         description: See full list of configuration options
         url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
         icon: fas fa-wrench
-        id: 4_642_configguide
-      - &ref_5
-        title: Support
+      - title: Support
         description: Get help with Dashy, raise a bug, or get in contact
         url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
         icon: far fa-hands-helping
-        id: 5_642_support
-    filteredItems:
-      - *ref_0
-      - *ref_1
-      - *ref_2
-      - *ref_3
-      - *ref_4
-      - *ref_5
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
   - name: pyOpenSci
     icon: fas fa-rocket
-    filteredItems: []
   - name: Jupyter
     icon: fas fa-smile
-    filteredItems: []
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
   - name: Packaging
     icon: fas fa-gift
-    filteredItems: []
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
   - name: Forums
     icon: fas fa-list
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: false
-      hideForGuests: false
     items:
-      - &ref_6
-        title: pyopensci
+      - title: pyopensci
         description: discourse
         icon: fas fa-flower
         url: https://pyopensci.discourse.group/
         target: newtab
-        id: 0_636_pyopensci
-      - &ref_7
-        title: Python
+      - title: Python
         description: discourse
         icon: fas fa-snake
         url: https://discuss.python.org
         target: newtab
-        id: 1_636_python
-    filteredItems:
-      - *ref_6
-      - *ref_7
