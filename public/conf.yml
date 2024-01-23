@@ -45,7 +45,7 @@ sections:
   - name: pyOpenSci
     icon: fas fa-rocket
   - name: Jupyter
-    icon: fas fa-smile
+    icon: si-jupyter
   - name: Packaging
     icon: fas fa-gift
     items:
@@ -64,8 +64,8 @@ sections:
       icon: far fa-wrench
       url: https://devguide.python.org/
       target: newtab
-  - name: Forums
-    icon: fas fa-list
+  - name: Discourse
+    icon: si-discourse
     items:
     - title: pyopensci
       description: discourse
