@@ -48,16 +48,32 @@ sections:
     icon: fas fa-smile
   - name: Packaging
     icon: fas fa-gift
+    items:
+    - title: packaging tutorial
+      description: packaging
+      icon: far fa-wrench
+      url: https://devguide.python.org/
+      target: newtab
+    - title: pip
+      description: Developer Guide
+      icon: far fa-wrench
+      url: https://devguide.python.org/
+      target: newtab
+    - title: peps
+      description: Developer Guide
+      icon: far fa-wrench
+      url: https://devguide.python.org/
+      target: newtab
   - name: Forums
     icon: fas fa-list
     items:
-      - title: pyopensci
-        description: discourse
-        icon: fas fa-flower
-        url: https://pyopensci.discourse.group/
-        target: newtab
-      - title: Python
-        description: discourse
-        icon: fas fa-snake
-        url: https://discuss.python.org
-        target: newtab
+    - title: pyopensci
+      description: discourse
+      icon: fas fa-flower
+      url: https://pyopensci.discourse.group/
+      target: newtab
+    - title: Python
+      description: discourse
+      icon: fas fa-snake
+      url: https://discuss.python.org
+      target: newtab
