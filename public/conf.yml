@@ -7,7 +7,7 @@ pageInfo:
     - title: Documentation
       path: https://dashy.to/docs
 appConfig:
-  theme: one-dark
+  theme: nord-frost
   layout: auto
   iconSize: medium
   language: en
