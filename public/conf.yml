@@ -22,12 +22,14 @@ sections:
         target: newtab
       - title: GitHub
         description: Source Code, Issues and Pull Requests
-        url: https://github.com/lissy93/dashy
+        url: https://github.com/python/cpython
         icon: fa-brands fa-github
+        target: newtab
       - title: Docs
         description: Documentation
         icon: far fa-book
-        url: https://docs.python.org
+        url: https://docs.python.org/
+        target: newtab
       - &ref_3
         title: Showcase
         description: See how others are using Dashy
@@ -93,7 +95,7 @@ sections:
         title: pyopensci
         description: discourse
         icon: fas fa-flower
-        url: https://https://pyopensci.discourse.group/
+        url: https://pyopensci.discourse.group/
         target: newtab
         id: 0_636_pyopensci
       - &ref_7
