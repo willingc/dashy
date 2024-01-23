@@ -13,7 +13,7 @@ appConfig:
   language: en
 sections:
   - name: Python
-    icon: fas fa-snake
+    icon: si-python
     items:
       - title: DevGuide
         description: Developer Guide
